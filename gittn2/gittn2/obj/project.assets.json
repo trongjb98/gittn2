@@ -1,0 +1,220 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Carbon.Data.Protection/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Carbon.Data.Protection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Carbon.Data.Protection.dll": {}
+        }
+      },
+      "Carbon.Packaging/1.40.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Data.Protection": "1.2.0",
+          "Carbon.Storage": "2.1.0",
+          "Carbon.Versioning": "1.8.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Carbon.Packaging.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Carbon.Packaging.dll": {}
+        }
+      },
+      "Carbon.Storage/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Carbon.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Carbon.Storage.dll": {}
+        }
+      },
+      "Carbon.VersionControl/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Storage": "2.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Carbon.VersionControl.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Carbon.VersionControl.dll": {}
+        }
+      },
+      "Carbon.Versioning/1.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Carbon.Versioning.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Carbon.Versioning.dll": {}
+        }
+      },
+      "GitHub/1.24.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Packaging": "1.40.0",
+          "Carbon.VersionControl": "2.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/GitHub.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GitHub.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Carbon.Data.Protection/1.2.0": {
+      "sha512": "k0Q0bgddsMamrmFaU9F3s0hrrDHJfdJAgus1RqiCla6R9ogCHrPAM79Lv8RaAkydem9oOV9yI/VuAAK2ILJccg==",
+      "type": "package",
+      "path": "carbon.data.protection/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.data.protection.1.2.0.nupkg.sha512",
+        "carbon.data.protection.nuspec",
+        "lib/netstandard2.0/Carbon.Data.Protection.dll",
+        "lib/netstandard2.1/Carbon.Data.Protection.dll"
+      ]
+    },
+    "Carbon.Packaging/1.40.0": {
+      "sha512": "3gGCpwDNJGe0gxs/gj+/M28FkAVJkrYer4RYdEJbbRpAJQyuF1P7/AAZ2ce55VGK56KiFjeM6lbWF4thl9ehfA==",
+      "type": "package",
+      "path": "carbon.packaging/1.40.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.packaging.1.40.0.nupkg.sha512",
+        "carbon.packaging.nuspec",
+        "lib/netcoreapp3.1/Carbon.Packaging.dll",
+        "lib/netstandard2.0/Carbon.Packaging.dll"
+      ]
+    },
+    "Carbon.Storage/2.1.0": {
+      "sha512": "XkYVunqafQQaIz+fYltQy1+fZFoyUdkuvLlS0sXtDBm466leWjGqfItIfMV3gyrPvhzcHWEycmhN8TPPPdVZFQ==",
+      "type": "package",
+      "path": "carbon.storage/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.storage.2.1.0.nupkg.sha512",
+        "carbon.storage.nuspec",
+        "lib/netcoreapp3.1/Carbon.Storage.dll",
+        "lib/netstandard2.0/Carbon.Storage.dll",
+        "lib/netstandard2.1/Carbon.Storage.dll"
+      ]
+    },
+    "Carbon.VersionControl/2.1.0": {
+      "sha512": "BaaTvYq7mZ5sF0WKSHhWORsWEWgLdCj257evX93cFWJmypQrLQqMOPYtNYLDCbyUNLdBuqO60A/kfieu/4V7mw==",
+      "type": "package",
+      "path": "carbon.versioncontrol/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.versioncontrol.2.1.0.nupkg.sha512",
+        "carbon.versioncontrol.nuspec",
+        "lib/netcoreapp3.1/Carbon.VersionControl.dll",
+        "lib/netstandard2.0/Carbon.VersionControl.dll"
+      ]
+    },
+    "Carbon.Versioning/1.8.1": {
+      "sha512": "rWicUGv/+8FD5lgFwW5FALR4cexeR0MJvvkYyGWGEGCRJUoLptqYSiiY37JKa0EtrYhJb3Q8EyOT5kI0nVcr8g==",
+      "type": "package",
+      "path": "carbon.versioning/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.versioning.1.8.1.nupkg.sha512",
+        "carbon.versioning.nuspec",
+        "lib/netcoreapp3.1/Carbon.Versioning.dll",
+        "lib/netstandard2.0/Carbon.Versioning.dll"
+      ]
+    },
+    "GitHub/1.24.0": {
+      "sha512": "bMsnKr8ljSKvLcuD36n0JNTgebp3t0F8Vjf8xsSlLoEmYqwVHFwfq94hZoaU/nN1QvEsYmOHPxzPEwIgywb91w==",
+      "type": "package",
+      "path": "github/1.24.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "github.1.24.0.nupkg.sha512",
+        "github.nuspec",
+        "lib/netcoreapp3.1/GitHub.dll",
+        "lib/netstandard2.0/GitHub.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "GitHub >= 1.24.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\trongjb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\trongjb\\source\\repos\\gittn\\gittn2\\gittn2\\gittn2.csproj",
+      "projectName": "gittn2",
+      "projectPath": "C:\\Users\\trongjb\\source\\repos\\gittn\\gittn2\\gittn2\\gittn2.csproj",
+      "packagesPath": "C:\\Users\\trongjb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\trongjb\\source\\repos\\gittn\\gittn2\\gittn2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\trongjb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "GitHub": {
+            "target": "Package",
+            "version": "[1.24.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

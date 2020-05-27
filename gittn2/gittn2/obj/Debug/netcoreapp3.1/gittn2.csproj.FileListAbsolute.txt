@@ -1,0 +1,4 @@
+C:\Users\trongjb\source\repos\gittn\gittn2\gittn2\bin\Debug\netcoreapp3.1\gittn2.exe
+C:\Users\trongjb\source\repos\gittn\gittn2\gittn2\obj\Debug\netcoreapp3.1\gittn2.csprojAssemblyReference.cache
+C:\Users\trongjb\source\repos\gittn\gittn2\gittn2\obj\Debug\netcoreapp3.1\gittn2.AssemblyInfoInputs.cache
+C:\Users\trongjb\source\repos\gittn\gittn2\gittn2\obj\Debug\netcoreapp3.1\gittn2.AssemblyInfo.cs
